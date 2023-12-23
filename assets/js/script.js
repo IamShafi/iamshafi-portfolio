@@ -1,6 +1,8 @@
 'use strict';
 
-
+// document.getElementById('eye-icon-container').addEventListener('click', function() {
+//         // Redirect to a different page
+//         window.location.href = 'your-desired-page-url';
 
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
