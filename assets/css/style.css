@@ -1939,3 +1939,30 @@ textarea.form-input::-webkit-resizer { display: none; }
     opacity: 1;
   }
 }
+
+.fade-scroll  {
+  animation: fade linear;
+  /* animation-timeline: view; */
+  /* animation-delay: 0.5s; */
+  /* animation-duration: 0.5s; */
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    /* transform: translate(); */
+  }
+  100% {
+    /* opacity: 1; */
+    /* transform: translate(); */
+  }
+}
