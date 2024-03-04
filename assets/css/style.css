@@ -698,14 +698,14 @@ main {
   overflow-y: auto;
   overscroll-behavior: contain;
   z-index: 20;
-  pointer-events: none;
+  /* pointer-events: none; */
   visibility: hidden;
 }
 
 .modal-container::-webkit-scrollbar { display: none; }
 
 .modal-container.active {
-  pointer-events: all;
+  /* pointer-events: all; */
   visibility: visible;
 }
 
@@ -718,7 +718,7 @@ main {
   background: hsl(0, 0%, 5%);
   opacity: 0;
   visibility: hidden;
-  pointer-events: none;
+  /* pointer-events: none; */
   z-index: 1;
   transition: var(--transition-3);
 }
@@ -726,7 +726,7 @@ main {
 .overlay.active {
   opacity: 0.8;
   visibility: visible;
-  pointer-events: all;
+  /* pointer-events: all; */
 }
 
 .testimonials-modal {
@@ -990,7 +990,7 @@ main {
 .filter-select.active + .select-list {
   opacity: 1;
   visibility: visible;
-  pointer-events: all;
+  /* pointer-events: all; */
 }
 
 .select-item button {
