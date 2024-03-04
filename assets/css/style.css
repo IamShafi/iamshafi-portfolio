@@ -698,14 +698,14 @@ main {
   overflow-y: auto;
   overscroll-behavior: contain;
   z-index: 20;
-  /* pointer-events: none; */
+  pointer-events: none;
   visibility: hidden;
 }
 
 .modal-container::-webkit-scrollbar { display: none; }
 
 .modal-container.active {
-  /* pointer-events: all; */
+  pointer-events: all;
   visibility: visible;
 }
 
