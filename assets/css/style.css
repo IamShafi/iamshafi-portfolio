@@ -176,14 +176,14 @@ body { background: var(--smoky-black); }
 
 .cursor::after {
   content: "";
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   position: absolute;
   border: 8px solid gray;
   border-radius: 50%;
   opacity: .5;
-  top: -8px;
-  left: -8px;
+  top: -5px;
+  left: -5px;
   animation: cursorAnim2 .5s infinite alternate;
 }
 
